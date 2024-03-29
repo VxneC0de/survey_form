@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Uneweb-blue)
 
-# Project Name
+# Survey Form
 
 > This page is based on a Free Code Camp project on Responsive Web Design, specifically the survey-form project. Here we will show a form with questions for a survey for some facility, in my case I decided to be inspired by the Vidamed medical center. Likewise, since it is a Free Code Camp project, the methods, tags, properties, among others, required to finish the page were used.
 
