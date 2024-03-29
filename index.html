@@ -15,7 +15,37 @@
             <p id="description" class="description">Thank you for taking the time to help us improve the quality of service we provide to you at VidaMed.</p>
         </header>
 
-        <form id="survey-form" class="formSurvey"></form>
+        <form id="survey-form" class="formSurvey">
+            
+            <div class="data">
+                <label id="name-label" for="name" class="data-label">Name</label>
+                <input type="text" name="name" id="name" class="data-input" placeholder="Enter your name" required/>
+            </div>
+            
+            <div class="data">
+                <label id="email-label" for="email" class="data-label">Email</label>
+                <input type="email" name="email" id="email" class="data-input" placeholder="Enter your Email" required/>
+            </div>
+
+            <div class="data">
+                <label id="number-label" for="number" class="data-label">Age
+                    <span class="span"> (optional)</span>
+                </label>
+                <input type="number" name="age" id="number" min="12" max="100" class="data-input" placeholder="Age"/>
+            </div>
+
+            <div class="data">
+                <label class="data-label">Which option best describes your current role?</label>
+                <select id="dropdown" name="role" class="data-select" required>
+                  <option disabled selected value>Select current role</option>
+                  <option value="student">Student(12-18)</option>
+                  <option value="youngAdult">Young adult(18-30)</option>
+                  <option value="adult">Adult(30 to 60)</option>
+                  <option value="elderly">Elderly(60 to older)</option>
+                </select>
+            </div>
+
+        </form>
 
     </div>
 
