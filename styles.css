@@ -23,3 +23,20 @@ body {
     flex-direction: column;
     padding: 2em;
 }
+
+
+.header{
+    text-align: center;
+}
+
+.header h1{
+    color: #656c79;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.671);
+}
+
+.header p{
+    font-style: italic;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.671);
+    font-weight: bold;
+}
